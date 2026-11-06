@@ -1,2 +1,5 @@
 # -REST-PERSISTENT-DATA-API
 a Simple Clinical Records RESTful API with Persistent Data
+
+This assignment gives a more in depth behind the scenes look at how important interoperability is to data exchange, especially in healthcare. You have to have the technical infrastructure and proper connection for the flow of data and to ensure that it is readable. Semantically they different systems have a defined set of protocols of what the data means and governance allows for the different organizations to have the same standards. 
+This week at work, I was apart of integrated testing, where we only tested ADT messages sent and received from our organization to a vendor called Hellocare to show readiness for a new service line. When I performed a task in our EMR, it generated a message that was then sent to the vendor. While on the meeting they shared their screen to ensure that the same data sent was received. For example, Patient Name, Room and Bed number, and Medical Record Number. The messages from the two systems had to match exactly! This assignment was very insightful! 
